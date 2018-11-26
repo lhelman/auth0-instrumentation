@@ -1,5 +1,11 @@
 # Changelog
 
+<a name="v2.25.0"></a>
+# v2.25.0
+### Feature
+* Add `fluentd` forwarder as a possible stream
+* https://github.com/auth0/auth0-instrumentation/compare/v2.24.0...v2.25.0
+
 <a name="v2.24.0"></a>
 # v2.24.0
 ### Dependencies

@@ -331,6 +331,11 @@ const env = {
     }
   ],
 
+  // fluentd configuration
+  // you must configure a source forward listening on a port or Unix Domain Socket
+  'LOG_TO_FLUENTD': 'localhost', // If starts with / it will be used as a Unix Domain Socket path
+  'LOG_TO_FLUENTD_PORT': 24224, // This is the default port
+
   // Error reporter configuration
   'ERROR_REPORTER_URL': undefined, // Sentry URL
   'ERROR_REPORTER_LOG_LEVEL': 'error',
